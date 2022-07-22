@@ -20,7 +20,7 @@ module.exports = {
       url: RINKEBY_RPC_URL,
       accounts: [PRIVATE_KEY],
       chainId: 4,
-      blockConfirmations: 6,
+      blockConfirmations: 1,
     },
   },
   gasReporter: {
@@ -29,7 +29,7 @@ module.exports = {
     noColors: true,
     currency: "USD",
     coinmarketcap: COINMARKETCAP_API_KEY,
-    token: "MATIC",
+    token: "ETH",
   },
   etherscan: {
     apiKey: ETHERSCAN_API_KEY,
